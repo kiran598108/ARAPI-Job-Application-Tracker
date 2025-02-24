@@ -20,11 +20,8 @@ const HomePage = () => {
 
   const totalJobs = jobs.length;
 
-
-
   return (
     <div>
-      {/* Hero Section */}
       <div className="hero">
         <div className="hero-content">
           <h1>Track Your Job Applications</h1>
@@ -58,8 +55,6 @@ const HomePage = () => {
       </div>
       
 
-
-      {/* Job List Section */}
       <div className="container">
         <h2>Your Job Applications</h2>
         <ul className="job-list">
