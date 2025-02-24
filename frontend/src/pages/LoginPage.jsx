@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import './LoginPage.css'; // Import the CSS file
+import './LoginPage.css'; 
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
@@ -9,10 +9,10 @@ const LoginPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // Add your login logic here (e.g., API call to authenticate user)
+  
     console.log('Logging in with:', email, password);
     localStorage.setItem('isAuthenticated', 'true');
-    navigate('/'); // Redirect to home page after login
+    navigate('/');
   };
 
   return (
