@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import './SignupPage.css'; // Import the CSS file
+import './SignupPage.css'; 
 
 const SignupPage = () => {
   const [name, setName] = useState('');
@@ -10,10 +10,10 @@ const SignupPage = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    // Add your signup logic here (e.g., API call to register user)
+    
     console.log('Signing up with:', name, email, password);
     localStorage.setItem('isAuthenticated', 'true');
-    navigate('/'); // Redirect to home page after signup
+    navigate('/');
   };
 
   return (
