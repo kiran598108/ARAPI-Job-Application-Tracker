@@ -13,8 +13,8 @@ import './App.css';
 
 function App() {
     const handleLogout = () => {
-      localStorage.removeItem('isAuthenticated'); // Remove the flag
-      window.location.href = '/login'; // Redirect to login page
+      localStorage.removeItem('isAuthenticated'); 
+      window.location.href = '/login'; 
     };
   
   return (
