@@ -1,4 +1,4 @@
-/* HomePage Styles */
+
 .job-list {
     list-style: none;
     padding: 0;
@@ -26,7 +26,7 @@
   .job-item a:hover {
     text-decoration: underline;
   }
-  /* Job Count Section */
+ 
 .job-count {
   text-align: center;
   margin: 20px 0;
@@ -41,11 +41,11 @@
   font-size: 2rem;
   margin: 0;
 }
-/* Delete Link */
+
 .delete-link {
   background-color: #bdadae;
   color: white;
-  /* padding: 5px 5px; */
+  
   border-radius: 1px;
   margin-left: 1px;
   text-decoration: none;
@@ -55,7 +55,7 @@
 .delete-link:hover {
   background-color: #c82333;
 }
-/* Welcome Message */
+
 .welcome-message {
   text-align: center;
   margin: 20px 0;
