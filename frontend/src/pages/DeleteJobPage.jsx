@@ -1,25 +1,24 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
-import './DeleteJobPage.css'; // Import the CSS file
-
+import './DeleteJobPage.css'; 
 const DeleteJobPage = () => {
-  const { id } = useParams(); // Get the job ID from the URL
+  const { id } = useParams(); 
   const [job, setJob] = useState(null);
   const navigate = useNavigate();
 
-  // Fetch the job details
+ 
   useEffect(() => {
     axios.get(`/api/jobs/${id}`)
       .then(res => setJob(res.data))
       .catch(err => console.log(err));
   }, [id]);
 
-  // Handle job deletion
+ 
   const handleDelete = async () => {
     try {
       await axios.delete(`/api/jobs/${id}`);
-      navigate('/'); // Redirect to the home page after deletion
+      navigate('/'); 
     } catch (err) {
       console.error('Failed to delete job:', err);
     }
