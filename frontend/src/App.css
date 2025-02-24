@@ -73,7 +73,7 @@
   animation: fadeIn 0.5s ease-in-out;
 }
 
-/* Global Styles */
+
 body {
   font-family: 'Arial', sans-serif;
   margin: 2;
@@ -140,8 +140,7 @@ input, select {
   border-radius: 5px;
   font-size: 16px;
 }
-/* new*/
-/* Hero Section */
+
 .hero {
   background-color: #46617e;
   color: white;
@@ -179,7 +178,7 @@ input, select {
   color: white;
 }
 
-/* Job List Section */
+
 .container {
   max-width: 1200px;
   margin: 40px auto;
@@ -254,7 +253,7 @@ h2 {
   background-color: #dc3545;
   color: white;
 } 
-/* Navigation Bar */
+
 nav {
   background-color: #687685;
   padding: 10px 20px;
@@ -281,7 +280,7 @@ nav .nav-links a:hover {
   text-decoration: underline;
 }
 
-/* Footer */
+
 footer {
   background-color: #007bff;
   color: white;
@@ -299,7 +298,7 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
-/* Logout Button */
+
 .logout-button {
   background-color: #dc3545;
   color: white;
