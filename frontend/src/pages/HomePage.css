@@ -1,0 +1,77 @@
+/* HomePage Styles */
+.job-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .job-item {
+    background-color: rgb(228, 204, 204);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgb(193, 150, 150);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .job-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .job-item a {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .job-item a:hover {
+    text-decoration: underline;
+  }
+  /* Job Count Section */
+.job-count {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-count h2 {
+  font-size: 2rem;
+  margin: 0;
+}
+/* Delete Link */
+.delete-link {
+  background-color: #bdadae;
+  color: white;
+  /* padding: 5px 5px; */
+  border-radius: 1px;
+  margin-left: 1px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.delete-link:hover {
+  background-color: #c82333;
+}
+/* Welcome Message */
+.welcome-message {
+  text-align: center;
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #28a745;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-message h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.welcome-message p {
+  margin: 5px 0 0;
+  font-size: 1.2rem;
+}
